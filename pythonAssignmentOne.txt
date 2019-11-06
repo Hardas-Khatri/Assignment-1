@@ -1,0 +1,46 @@
+		Code: Program # 01
+print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are!")
+		Code: Program # 02 
+For running this following code, I used two libraries one Is default added in jupyter IDE and other one for printing emoji. Emoji by default not added so that I import emoji library by using this command in anaconda prompt: pip install emoji
+
+import emoji 
+import sys
+print("I am using python >>>>\n"+sys.version+"<<<<This version"+emoji.emojize(":grinning_face_with_big_eyes:"))
+
+		Code: Program # 03
+
+#funtion of date and time is imported
+import datetime
+# date_time is a variable in which time and date stored by using funtion datetime.now()
+date_time = datetime.datetime.now()
+#This line prints the string message
+print("Current Date and Time is: ")
+#Actual Output printed by this line, funtion str is basically string function that converts the defined value into string format
+print(str(date_time))
+
+Output:
+Current Date and Time is: 
+2019-11-05 18:04:41.184128
+
+		Code: Program # 04
+#formula for computing area of circle by radius is: pi multiply by r square 
+#in mathematics value of pi is 3.14 or 22/7 
+# variable by in which pi value stored
+pi = 3.14; 
+# r is another variable that used for user input with data type float
+r = float(input ("Please inter the value of Circle  Redius then Hit Enter to get area of circle: "))
+#actual result formed by following line
+print ("Area Computed: "+str(pi * r**2)+" by your input")
+
+ 
+		Code: Program # 05
+
+string_one = input("Enter Your First Name: ")
+string_two = input("Enter Your Second Name: ")
+print("Both String are reversed and space between them: ",string_one[len(s)-1::-1],string_two[len(s)-1::-1])
+
+		Code: Program # 06
+
+value_one = float(input("Enter First number: "))
+value_two = float(input("Enter Second number: "))
+print("Addition of your two inputs is: ",value_one+value_two)
